@@ -132,4 +132,9 @@ PRIMEIRA_COMPRA BIT (1));
   
   >tabela produtos
   ![tabela produtos](https://user-images.githubusercontent.com/86755845/207202160-ff12fe62-1aff-40ef-8668-c67bb2965d08.png)
+  
+  > apagando tavela 
+  ```
+  DROP TABLE (nome da tabela);
+  ```
 
