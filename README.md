@@ -62,5 +62,12 @@ Estudo sobre SQL com MySQL, manipulando e consultado dados - instrutor Victorino
    mysql -h localhost -u root -p
    ```
    ##
+   > criando tabelas
    
-   
+    |tipo |valor em bytes|menor valor (-)|menor valor|maior valor (-)|maior valor|
+    |---|---|---|---|---|---|
+    |TINYINT|  1 |-128| 0  |127|255|
+    |SMALLINT|  2 |-32768| 0  |32767	|65535 |
+    |MEDIUMINT| 3  |-8388608	| 0  |8388607| 16777215|
+    |INT| 4  |  -2147483648	| 0 |2147483647|4294967295 |
+    |BIGINT| 8  | -2xE63	| 0  | 2xE63 |2xE64-1 |
