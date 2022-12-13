@@ -71,3 +71,43 @@ Estudo sobre SQL com MySQL, manipulando e consultado dados - instrutor Victorino
     |MEDIUMINT| 3  |-8388608	| 0  |8388607| 16777215|
     |INT| 4  |  -2147483648	| 0 |2147483647|4294967295 |
     |BIGINT| 8  | -2xE63	| 0  | 2xE63 |2xE64-1 |
+
+    * ponto float 
+      * FLOAT : precisao simples ( 4bytes )
+      * DOUBLE : precisao dupla ( 8 bytes )
+      * exemplo: float (7,4) =  999,00009 --> 999,0001 ( arrendonda )
+    * fixos
+      *  decimal ou numeric: (5,2) = -999,99 between 999,99
+    * BIT
+      * bit 1 = 1 ou 0
+      * bit 2 = 01, 10, 00, 11
+      * tamho ate 64 bits
+    * signed ou unsigned
+      * possui ( - ) ou nao 
+    * zerofil
+      * preenche com 0 os espacos 
+    * auto_increment 
+      * sequencia auto incrementada  
+    * erros de out of range
+      * ocorre quando os valores estouram os limites
+    * data e hora
+      * date = AA/MM/DD
+      * datetime = 1000-01-01 00:00:00 ate 9999-12-31 23:59:59
+      * timestamp = 1970-MM-DD H:M:S ate 2038-01-19 (UTC)
+      * time --  -838:59:59 e 839:59:59
+      * year - 1901 - 2155 ( 2 ou 4 digitos )
+    * strings
+      * char - valor fixo de caracteres
+      * varchar - valor variado
+      * binary - caracteres fixos de binarios
+      * varbinary - caracteres variados de binarios
+      * blob - tinyblob; blob; mediumblob; longblob; ( binarios )
+      * text - tinytext; text; mediumtext; longtext; ( textos )
+      * enum - armazena lista pre-definidas de valores
+      * set e collate - conjunto de caracteres suportados 
+    * spacial
+      * geometry
+      * point
+      * linestring
+      * polygon
+##
