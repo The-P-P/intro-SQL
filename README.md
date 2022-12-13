@@ -214,7 +214,7 @@ PRIMEIRA_COMPRA BIT (1));
   PRECO_LISTA) VALUES
   ('1078680', 'Frescor do Verão - 470 ml - Manga', 'Lata', '470 ml','Manga',5.18);
   ```
-    * Note que, da segunda vez, o comando não pode ser executado apresentando erro porque viola a chave primária.
+* Note que, da segunda vez, o comando não pode ser executado apresentando erro porque viola a chave primária.
   >Caso você deseje mudar algo neste registro deve altera-lo
   ```
   UPDATE tbproduto SET EMBALAGEM = 'Garrafa'
